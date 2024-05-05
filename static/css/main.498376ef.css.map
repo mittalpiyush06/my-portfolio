@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.498376ef.css","mappings":"AAAA,UAII,6BAAiC,CACjC,wBAAyB,CACzB,iBAAkB,CAHlB,QAAS,CADT,SAKJ","sources":["App.css"],"sourcesContent":["html,\r\nbody {\r\n    padding: 0;\r\n    margin: 0;\r\n    font-family: \"Outfit\", sans-serif;\r\n    font-optical-sizing: auto;\r\n    font-style: normal;\r\n}"],"names":[],"sourceRoot":""}
