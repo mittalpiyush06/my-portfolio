@@ -4,9 +4,9 @@ export const experience = [
         companyName: "@ Intuit",
         timeLine: "July 2023 - Present",
         description: [
-            "Engaged in the redesign of a UI, resulting in enhanced performance and usability.",
+            "Reduced entity on-boarding time for spreadsheet-sync bulk upload feature on (Excel, G-Sheets) by 80%",
             "Optimized batch transaction features, on-boarded new entity, enhancing code stability, and re-usability.",
-            "Reduced entity on-boarding time for spreadsheet-sync bulk upload feature on (Excel, G-Sheets) by 80%"
+            "Engaged in the redesign of a UI, resulting in enhanced performance and usability."
         ]
     },
     {
