@@ -12,6 +12,7 @@ const FooterSection = styled.div`
     bottom: 0;
     height: 2rem;
     display: flex;
+    opacity: 0.8;
     justify-content: center;
     align-items: center;
     color: white;

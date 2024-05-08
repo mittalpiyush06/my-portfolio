@@ -14,6 +14,7 @@ const Main = styled.div`
   overflow: hidden;
   height: 100vh;
   width: 100vw;
+  opacity: 0.99;
   .main {
     height: 100vh;
     width: 100vw;
