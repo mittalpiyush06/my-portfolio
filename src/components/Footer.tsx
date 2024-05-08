@@ -5,7 +5,7 @@ import { myDetails } from "../constants/myDetails";
 
 
 const FooterSection = styled.div`   
-    position: absolute;
+    position: fixed;
     background: linear-gradient(135deg, black, red);
     display: flex;
     width: 100%;
