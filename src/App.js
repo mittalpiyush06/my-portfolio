@@ -7,6 +7,7 @@ import About from "./pages/about";
 import Projects from "./pages/projects";
 import Articles from "./pages/articles";
 import ReadArticle from "./pages/readArticle";
+
 import Contact from "./pages/contact";
 import Notfound from "./pages/404";
 
@@ -24,11 +25,13 @@ function App() {
 		<div className="App">
 			<Routes>
 				<Route path="/" element={<Homepage />} />
-				<Route path="/about" element={<About />} />
-				<Route path="/projects" element={<Projects />} />
-				<Route path="/articles" element={<Articles />} />
-				<Route path="/article/:slug" element={<ReadArticle />} />
-				<Route path="/contact" element={<Contact />} />
+				<Route path="/my-portfolio/" element={<Homepage />} />
+				<Route path="/my-portfolio/my-portfolio" element={<Homepage />} />
+				<Route path="/my-portfolio/about" element={<About />} />
+				<Route path="/my-portfolio/projects" element={<Projects />} />
+				{/* <Route path="/my-portfolio/articles" element={<Articles />} />
+				<Route path="/my-portfolio/article/:slug" element={<ReadArticle />} /> */}
+				<Route path="/my-portfolio/contact" element={<Contact />} />
 				<Route path="*" element={<Notfound />} />
 			</Routes>
 		</div>
